@@ -1,0 +1,30 @@
+{
+  "name": "blog_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon --inspect index.js",
+    "test": "https://boilerplate-npm.jasmine220.repl.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jasmine220/nodejs.blog.git"
+  },
+  "keywords": [
+    "blog",
+    "nodejs"
+  ],
+  "author": "trangdt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jasmine220/nodejs.blog/issues"
+  },
+  "homepage": "https://github.com/Jasmine220/nodejs.blog#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
