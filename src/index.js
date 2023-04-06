@@ -1,7 +1,8 @@
 const express = require('express')//thu vien
 const app = express()
+var morgan = require('morgan')
 const port = 3000
-
+app.use(morgan('combined'))
 //định nghĩa  = route
 //khi đi vào trang chủ sẽ return ra 1 res.send~ trả về trình duyệ 1 chuối 
 app.get('/login', (req, res) => {
